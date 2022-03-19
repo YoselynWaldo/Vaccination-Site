@@ -1,0 +1,739 @@
+/*Barra de navegación*/
+.navbar {
+    border-color: black;
+  }
+  
+  .navbar h2,
+  h3,
+  button {
+    overflow: hidden;
+    float: left;
+  }
+  
+  .navbar h2 {
+    padding-left: 5%;
+    padding-right: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #89a0fd;
+  }
+  
+  .navbar h3 {
+    padding-left: 4%;
+    padding-top: 0.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    size: 50px;
+    color: gray;
+  }
+  
+  .navbar a {
+    padding: 15px 32px;
+    margin-left: 5%;
+    margin-top: 0.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #6886ff;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  
+  /*Fight Virus With Vaccines*/
+  
+  .seccion2 {
+    position: relative;
+  }
+  
+  .textimg {
+    display: flex;
+    display: inline-flex;
+  }
+  
+  .derecha {
+    padding-right: 100px;
+    padding-left: 200px;
+  }
+  
+  .derechatitulo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    line-height: 5px;
+    color: #1e336f;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 10px;
+  }
+  
+  .derechaparrafo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 10px;
+    color: gray;
+    padding-bottom: 10px;
+  }
+  
+  .derechaicontext,
+  .logotext,
+  .datosvacuna {
+    display: flex;
+    display: inline-flex;
+  }
+  
+  .derechaicontext img {
+    padding-top: 7px;
+    padding-right: 7px;
+  }
+  
+  .derechaicontext p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #1e336f;
+    padding-left: 5px;
+    padding-right: 10px;
+  }
+  
+  .derechaicontext2 {
+    display: flex;
+  }
+  
+  .derechaicontext2 img {
+    padding-top: 30px;
+    padding-right: 7px;
+  }
+  
+  .derechaicontext2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #1e336f;
+    padding-left: 5px;
+    padding-top: 20px;
+    font-weight: bold;
+  }
+  
+  .izquierda {
+    padding-left: 140px;
+  }
+  
+  .flotante {
+    background-color: #eef3fa;
+    margin-left: 200px;
+    width: 700px;
+    height: 100px;
+    position: absolute;
+    top: 370px;
+  }
+  
+  .logotext img {
+    padding-top: 25px;
+    padding-right: 4px;
+    padding-left: 25px;
+  }
+  
+  .logotext p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: gray;
+    padding-top: 20px;
+    padding-right: 80px;
+  }
+  
+  .logotext a {
+    padding: 12px 30px;
+    margin-left: 1%;
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #2f4fcd;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  
+  .datosvacuna p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #1e336f;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 0.5px;
+  }
+  
+  /*Marcas de vacunas*/
+  
+  .marcas{
+      display: flex;
+      display: inline-flex;
+      padding-left: 200px;
+  }
+  
+  .marcas img{
+      padding-top: 20px;
+      padding-right: 90px;
+  }
+  
+  .shouldvaccine{
+    padding-left: 200px;
+  }
+  
+  .shouldvaccinetitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 5px;
+    color: #1e336f;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 10px;
+  }
+  
+  .shouldvaccineparrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 10px;
+    color: gray;
+    padding-bottom: 10px;
+  }
+  
+  .shouldvaccinecuatro{
+    display: flex;
+    display: inline-flex;
+    padding-left: 210px;
+    padding-right: 200px;
+  }
+  
+  .shouldvaccineuno , .shouldvaccinedos , .shouldvaccinetres, .shouldvaccinec4{
+    width: 200px;
+    height: 250px;
+    border-radius: 5%;
+    margin-right: 10px;
+    box-shadow: 2px 2px 2px 2px gray;
+  }  
+  
+  .shouldvaccineuno img, .shouldvaccinedos img, .shouldvaccinetres img, .shouldvaccinec4 img{
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-bottom: 5px;
+  }
+  
+  .shouldvaccineuno h2, .shouldvaccinedos h2, .shouldvaccinetres h2, .shouldvaccinec4 h2{
+    font-family: Arial, Helvetica, sans-serif;  
+    line-height: 2px;
+    color: #1e336f;
+    font-size: medium;
+    padding-left: 30px;
+  }
+  
+  .shouldvaccineuno p, .shouldvaccinedos p, .shouldvaccinetres p, .shouldvaccinec4 p{
+    font-family: Arial, Helvetica, sans-serif;  
+    line-height: 1px;
+    color: gray;
+    font-size: 12px;
+    padding-left: 30px;
+  }
+  
+  
+  /*Tips*/
+  .textoimagen{
+    display: flex;
+    display: inline-flex;
+  }
+  
+  .textoimagenizquierda{
+    padding-top: 40px;
+    padding-left: 100px;
+  }
+  
+  .textoimagenderecha{
+    padding-top: 10px;
+    margin-left: 50px;
+    display: inline-block;
+  }
+  
+  .preparationinfo{
+    padding-bottom: 10px;
+  }
+  
+  .preparationinfo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #1e336f;
+    font-weight: bold;
+  }
+  
+  .preparationinfo p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 5px;
+    color: gray;
+    padding-bottom: 3px;
+  }
+  
+  .preparation1{
+    overflow: hidden;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-bottom: 30px;
+  }
+  
+  
+  .preparation1 img, .preparation1 p{
+    float: left;
+  }
+  
+  .preparation1 img{
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  
+  .preparation1 p {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1e336f;
+    font-weight: 300;
+    padding-left: 20px;
+    padding-right: 80px;
+  }
+  
+  .preparation2{
+    overflow: hidden;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-bottom: 30px;
+  }
+  
+  .preparation2a img, .preparation2a p {
+    float: left;
+  }
+    
+  .preparation2a img{
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  
+  .preparation2a p {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1e336f;
+    font-weight: 300;
+    padding-left: 20px;
+    padding-right: 180px;
+  }
+  
+  
+  
+  .preparation2b p{
+    
+    padding-top: 5px;
+    padding-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 5px;
+    color: gray;
+  }
+  
+  .preparation3{
+    overflow: hidden;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-bottom: 30px;
+    
+  }
+  
+  
+  .preparation3 img, .preparation3 p{
+    float: left;
+  }
+  
+  .preparation3 img{
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  
+  .preparation3 p {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1e336f;
+    font-weight: 300;
+    padding-left: 20px;
+    margin-right: 150px;
+  }
+  
+  .preparation4{
+    overflow: hidden;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-bottom: 30px;
+    
+  }
+  
+  
+  .preparation4 img, .preparation4 p{
+    float: left;
+  }
+  
+  .preparation4 img{
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  
+  .preparation4 p {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1e336f;
+    font-weight: 300;
+    padding-left: 20px;
+    margin-right: 140px;
+  }
+  
+  .preparation5{
+    overflow: hidden;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-bottom: 30px;
+    
+  }
+  
+  
+  .preparation5 img, .preparation5 p{
+    float: left;
+  }
+  
+  .preparation5 img{
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  
+  .preparation5 p {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1e336f;
+    font-weight: 300;
+    padding-left: 20px;
+    margin-right: 70px;
+  }
+  
+  /*Contact*/
+  
+  .textoimagendoctor{
+    display: flex;
+    display: inline-flex;
+    padding-left: 100px;
+  }
+  
+  .contactinfo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #1e336f;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+  
+  .contactinfo p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 0px;
+    color: gray;
+    padding-top: 15px;
+    padding-bottom: 3px;
+  }
+  
+  .callchat{
+    display: flex;
+    display: inline-flex;
+    margin-left: 15px;
+    margin-top: 50px;
+  }
+  
+  .call{
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .call0{
+    display: flex;
+    display: inline-flex;
+  }
+  
+  .call1 img{
+    padding-top: 20px;
+  }
+  
+  
+  
+  .call2 p{
+    padding-left: 10px;
+    padding-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #1e336f;
+    line-height: 3px;
+    font-weight: 600;
+  }
+  
+  .call3 a{
+    padding: 6px 30px;
+    margin-left: 1%;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2f4fcd;
+    background-color:  #dce5f9;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+  }
+  
+  
+  
+  .chat{
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .chat0{
+    display: flex;
+    display: inline-flex;
+  }
+  
+  .chat1 img{
+    padding-top: 20px;
+  }
+  
+  
+  
+  .chat2 p{
+    padding-left: 10px;
+    padding-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #1e336f;
+    line-height: 3px;
+    font-weight: 600;
+  }
+  
+  .chat3 a{
+    padding: 6px 30px;
+    margin-left: 1%;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dce5f9;
+    background-color: #2f4fcd;  
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  
+  
+  
+  .videomessage{
+    display: flex;
+    display: inline-flex;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  
+  
+  
+  .video{
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .video0{
+    display: flex;
+    display: inline-flex;
+  }
+  
+  .video1 img{
+    padding-top: 20px;
+  }
+  
+  
+  
+  .video2 p{
+    padding-left: 10px;
+    padding-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #1e336f;
+    line-height: 3px;
+    font-weight: 600;
+  }
+  
+  .video3 a{
+    padding: 6px 30px;
+    margin-left: 1%;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2f4fcd; 
+    background-color: #dce5f9;  
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  
+  
+  .msg{
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .msg0{
+    display: flex;
+    display: inline-flex;
+  }
+  
+  .msg1 img{
+    padding-top: 20px;
+  }
+  
+  
+  
+  .msg2 p{
+    padding-left: 10px;
+    padding-top: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #1e336f;
+    line-height: 3px;
+    font-weight: 600;
+  }
+  
+  .msg3 a{
+    padding: 6px 30px;
+    margin-left: 1%;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2f4fcd; 
+    background-color: #dce5f9;  
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  
+  .imagenderecha{
+    margin-left: 80px;
+  }
+  
+  /*Footer*/
+  .footer{
+    background-color:   #eaf3fb;
+    margin-top: 90px;
+  }
+  
+  .infofooterA {
+    display: flex;
+    display: inline-flex;
+    padding-left: 120px;
+  }
+  
+  .A1{
+    padding-right: 300px;
+  }
+  
+  .A1 h4{
+    color: #2f4fcd;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .A1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 5px;
+    color: gray;
+  }
+  
+  .A2{
+    padding-right: 150px;
+  }
+  
+  .A2 h4{
+    color: #1e336f;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .A2 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 20px;
+    color: gray;
+  }
+  
+  .A3{
+    padding-right: 130px;
+  }
+  
+  .A3 h4{
+    color: #1e336f;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .A3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 20px;
+    color: gray;
+  }
+  
+  
+  .A4 h4{
+    color: #1e336f;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .A4 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 20px;
+    color: gray;
+  }
+  
+  
+  .infofooterB{
+    display: flex;
+    display: inline-flex;
+    padding-top: 30px;
+  }
+  
+  .B1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 10px;
+    padding-left: 100px;
+    padding-right: 470px;
+  }
+  
+  .B2 p , .B3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 10px;
+    padding-left: 50px;
+  }
+  
+  
